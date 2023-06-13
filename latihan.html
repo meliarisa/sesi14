@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan jQuery 01</title>
+    
+</head>
+<body>
+
+    <h2>judul Konten</h2>
+    <div id="textid">Belajar apa?</div>
+    <div class="textcls">Tidak tau</div>
+    <u>blablabla</u>
+
+    <script src="jQuery-3.7.0.min.js"></script>
+    <script>
+        $(function(){
+            $("#textid").html("dimana kita belajar?");
+            $(".textcls").html("dirumah dong");
+            $("h2").html("Latihan JQuery");
+            $("u").html("iyaaaaaaaa")
+        });
+        //document.getElementById("isikontenid").innerHTML = "pengganti <b>kontenID</b>"
+        //document.getElementsByName("isikontencls")
+    </script>
+
+</body>
+</html>
